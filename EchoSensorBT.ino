@@ -1,9 +1,9 @@
 
 #include "BluetoothSerial.h"  // include BT to serial library
+const int ledPin = 2;
 const int trigPin = 5;
 const int echoPin = 18;
-const int ledPin = 2;
-int count = 0;
+
 bool isConnected = false;
 bool isSetupDone = false;
 bool isLedOn = false;
